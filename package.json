@@ -11,13 +11,8 @@
     "typescript": "^7"
   },
   "allowScripts": {
-    "esbuild": true,
-    "canvas": true,
-    "sharp": true,
-    "chdb": true,
     "@hypequery/clickhouse": true,
-    "hypequery/serve": true,
-    "zod": true
+    "hypequery/serve": true
   },
   "dependencies": {
     "@chdb/lib-darwin-x64": "^26.7.0-stable.1",
