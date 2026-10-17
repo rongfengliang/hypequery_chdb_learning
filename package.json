@@ -1,0 +1,30 @@
+{
+  "name": "hy",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@hypequery/cli": "^1.24.1",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "allowScripts": {
+    "esbuild": true,
+    "canvas": true,
+    "sharp": true,
+    "chdb": true,
+    "@hypequery/clickhouse": true,
+    "hypequery/serve": true,
+    "zod": true
+  },
+  "dependencies": {
+    "@chdb/lib-darwin-x64": "^26.7.0-stable.1",
+    "@hypequery/clickhouse": "^2.13.0",
+    "@hypequery/datasets": "^0.23.1",
+    "@hypequery/serve": "^0.21.0",
+    "chdb": "^3.2.0",
+    "zod": "^3.23.8"
+  }
+}
